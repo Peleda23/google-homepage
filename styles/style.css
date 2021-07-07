@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
 }
 
 .nav-bar {
@@ -24,16 +25,28 @@ body {
 
 input[type=search] {
     border-radius: 30px;
-    padding: 10px;
+    padding: 10px 10px 10px 40px;
     width: 40%;
+    height: 45px;
     margin: 20px 0 20px 0;
     border: 2px solid #eee;
+}
+
+input[type=search]:hover {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+#search-icon {
+    position: relative;
+    right: 39%;
 }
 
 .input-text {
     display: flex;
     justify-content: center;
 }
+
+
 
 .buttons {
     display: flex;
@@ -67,6 +80,11 @@ footer {
     padding: 15px 0 15px 0;
 }
 
+.footer-first-line li {
+    padding-left: 20px;
+}
+
+
 .footer-second-line {
     list-style-type: none;
     display: flex;
@@ -75,5 +93,9 @@ footer {
 }
 
 .footer-second-line li {
-    padding-left: 12px;
+    padding-left: 20px;
+}
+
+.item4 {
+    padding-right: 62%;
 }
