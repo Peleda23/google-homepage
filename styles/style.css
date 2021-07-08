@@ -17,6 +17,15 @@ body {
     padding-left: 15px;
 }
 
+.nav-bar li a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-bar li a:hover {
+    text-decoration: underline;
+}
+
 .google-logo {
     display: flex;
     justify-content: center;
@@ -28,8 +37,9 @@ input[type=search] {
     padding: 10px 10px 10px 40px;
     width: 40%;
     height: 45px;
-    margin: 20px 0 20px 0;
+    margin: 20px 0 20px 0; 
     border: 2px solid #eee;
+    width: 40%;
 }
 
 input[type=search]:hover {
@@ -55,9 +65,14 @@ input[type=search]:hover {
 button {
     border: none;
     height: 40px;
-    padding: 10px;
+    padding: 0px 16px;
     margin: 10px;
-    background-color: #eee;;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+}
+
+button:hover {
+    border: 1px solid #dadce0;;
 }
 
 .text {
@@ -73,29 +88,40 @@ footer {
     background-color: #eee;
 }
 
-.footer-first-line {
-    list-style-type: none;
+.footer-one {
+   
     border-bottom: 2px solid rgb(173, 171, 171);
     margin: 0;
-    padding: 15px 0 15px 0;
-}
-
-.footer-first-line li {
-    padding-left: 20px;
-}
-
-
-.footer-second-line {
-    list-style-type: none;
+    padding: 15px 30px 15px 30px;
     display: flex;
+}
+
+
+
+.footer-two {
+    display: flex;
+    justify-content: space-between;
     margin: 0;
-    padding: 15px 0 15px 0;
+    padding: 15px 30px 15px 30px;
 }
 
-.footer-second-line li {
-    padding-left: 20px;
+.box-one a {
+    padding: 15px;
+    color: black;
+    text-decoration: none;
 }
 
-.item4 {
-    padding-right: 62%;
+.box-two a {
+    padding: 15px;
+    color: black;
+    text-decoration: none;
 }
+
+.box-one a:hover {
+    text-decoration: underline;
+}
+
+.box-two a:hover {
+    text-decoration: underline;
+}
+
